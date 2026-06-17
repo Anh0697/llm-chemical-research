@@ -420,31 +420,28 @@ def main():
         # for layer_ix in range(20,21):
             print(f"Processing Layer {layer_ix}")
             # Iterate over batches
-            for start_ix in range(0, len(prompts), batch_size):
-                batch_prompts = prompts[start_ix:start_ix + batch_size]
+            try:
+                # Process and save activations for the current batch and layer
+                process_and_save_activations(
+                    model=model,
+                    tokenizer=tokenizer,
+                    prompts=prompts,
+                    layer_ix=layer_ix,
+                    entity_type=entity_type,
+                    prompt_name=prompt_name,
+                    model_name=model_name,
+                    aggregation=aggregation,
+                    save_dir=base_save_dir,
+                    batch_size=batch_size
+                )
+                print(f"Processed Layer {layer_ix}")
                 
-                try:
-                    # Process and save activations for the current batch and layer
-                    process_and_save_activations(
-                        model=model,
-                        tokenizer=tokenizer,
-                        prompts=batch_prompts,
-                        layer_ix=layer_ix,
-                        entity_type=entity_type,
-                        prompt_name=prompt_name,
-                        model_name=model_name,
-                        aggregation=aggregation,
-                        save_dir=base_save_dir,
-                        batch_size=batch_size
-                    )
-                    print(f"Processed batch {start_ix // batch_size + 1} for Layer {layer_ix}")
-                
-                except torch.cuda.OutOfMemoryError as e:
-                    print(f"CUDA out of memory: {e}. Reducing batch size or freeing up memory.")
-                    torch.cuda.empty_cache()
-                    # Optionally, implement a smaller batch size retry mechanism
-                    # For simplicity, we skip the batch if OOM occurs
-                    continue
+            except torch.cuda.OutOfMemoryError as e:
+                print(f"CUDA out of memory: {e}. Reducing batch size or freeing up memory.")
+                torch.cuda.empty_cache()
+                # Optionally, implement a smaller batch size retry mechanism
+                # For simplicity, we skip the batch if OOM occurs
+                continue
             
             print(f"Layer {layer_ix} activations processed and saved.")
     

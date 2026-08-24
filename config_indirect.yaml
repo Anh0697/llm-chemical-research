@@ -1,0 +1,155 @@
+# Configuration file for LLM knowledge representation experiments
+# This file contains model configurations, experimental parameters, and extraction settings
+#
+# USAGE EXAMPLES:
+# 
+# To change the model used for extraction:
+#   extraction.model_name: "meta-llama/Llama-3.1-8B"
+#
+# To adjust batch size for your GPU memory:
+#   extraction.batch_size: 256  # Smaller for less memory
+#
+# To use different aggregation method:
+#   extraction.aggregation: "mean"  # Options: "last", "mean", "max", "none"
+#
+# To add new entity types, extend the extraction.entities list with:
+#   - entity_type: "your_entity_name"
+#     data_file: "your_data.csv"
+#     prompt_name: "your_template_name"  
+#     templates:
+#       - "Your template with {Column_Name} placeholder"
+
+models:
+  - name: "Llama-2-7b-hf (continuation prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-2-7b-hf/group/group.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: false
+    
+  - name: "Llama-2-7b-hf (question prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-2-7b-hf/group question/group question.last.11_templates_questions.{layer}.pt"
+    num_layers: 32
+    enabled: true
+    
+  - name: "Llama-3.1-8B (continuation prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-3.1-8B/group/group.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: true
+    
+  - name: "Llama-3.1-8B (question prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-3.1-8B/group question/group question.last.11_templates_questions.{layer}.pt"
+    num_layers: 32
+    enabled: true
+    
+  - name: "Meta-Llama-3.1-70B (continuation prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Meta-Llama-3.1-70B/group/group.last.11_templates.{layer}.pt"
+    num_layers: 80
+    enabled: true
+
+  - name: "Meta-Llama-3.1-70B (question prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Meta-Llama-3.1-70B/group question/group question.last.11_templates_questions.{layer}.pt"
+    num_layers: 80
+    enabled: true
+    
+  - name: "Llama-2-7b-hf (Matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-2-7b-hf/group/group.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: true
+    
+  - name: "Llama-2-7b-hf (Non-matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-2-7b-hf/group/group.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: false
+
+  - name: "Llama-3.1-8B (Matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-3.1-8B/group/group.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: false
+    
+  - name: "Llama-3.1-8B (Non-matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-3.1-8B/atomic number/atomic number.last.11_templates.{layer}.pt"
+    num_layers: 32
+    enabled: false
+    
+  - name: "Meta-Llama-3.1-70B (Matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Meta-Llama-3.1-70B/group/group.last.11_templates.{layer}.pt"
+    num_layers: 80
+    enabled: false
+
+  - name: "Meta-Llama-3.1-70B (Non-matching prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Meta-Llama-3.1-70B/atomic number/atomic number.last.11_templates.{layer}.pt"
+    num_layers: 80
+    enabled: false
+
+  - name: "Llama-2-7b-hf (No-mention prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-2-7b-hf/element/element.last.11_templates.layer_{layer}.pt"
+    num_layers: 32
+    enabled: false
+
+  - name: "Llama-3.1-8B (No-mention prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Llama-3.1-8B/element/element.last.11_templates.layer_{layer}.pt"
+    num_layers: 32
+    enabled: false
+
+  - name: "Meta-Llama-3.1-70B (No-mention prompt)"
+    activation_path_template: "activation_datasets/meta-llama-Meta-Llama-3.1-70B/element/element.last.11_templates.layer_{layer}.pt"
+    num_layers: 32
+    enabled: false
+  
+
+
+# Experimental parameters
+experiment:
+  dataset_file: "periodic_table_dataset.csv"
+  label_column: "Group"
+  split_method: "group_shuffle"  # Options: middle, first, group_shuffle
+  regression_methods: ["svr_cv"]  # Options: svr, random_forest, svr_cv
+  prompt_template_number: 11
+  
+# Output settings
+output:
+  results_dir: "Results/non_matching"
+  
+# Model training parameters
+training:
+  svr_kernel: "linear"
+  svr_c: 2
+  rf_n_estimators: 100
+  rf_random_state: 42
+  cv_splits: 5
+  cv_random_state: 100
+
+# Plotting configuration
+plotting:
+  color_map:
+    "Llama-2-7b-hf (Non-matching prompt)": "#e377c2"
+    "Llama-2-7b-hf (Matching prompt)": "#f7c9e2"
+    "Llama-3.1-8B (Non-matching prompt)": "#2ca02c"
+    "Llama-3.1-8B (Matching prompt)": "#98df8a"
+    "Meta-Llama-3.1-70B (Non-matching prompt)": "#1f77b4"
+    "Meta-Llama-3.1-70B (Matching prompt)": "#aec7e8"
+    # Alternative color scheme for question/continuation prompts
+    "Llama-2-7b-hf (question prompt)": "#e377c2"
+    "Llama-2-7b-hf (continuation prompt)": "#f7c9e2"
+    "Llama-3.1-8B (question prompt)": "#2ca02c"
+    "Llama-3.1-8B (continuation prompt)": "#98df8a"
+    "Meta-Llama-3.1-70B (question prompt)": "#1f77b4"
+    "Meta-Llama-3.1-70B (continuation prompt)": "#aec7e8"
+  
+  style_map:
+    "Llama-2-7b-hf (Matching prompt)": "-"
+    "Llama-2-7b-hf (Non-matching prompt)": "-"
+    "Llama-3.1-8B (Matching prompt)": "-"
+    "Llama-3.1-8B (Non-matching prompt)": "-"
+    "Meta-Llama-3.1-70B (Matching prompt)": "-"
+    "Meta-Llama-3.1-70B (Non-matching prompt)": "-"
+    # Alternative style scheme for question/continuation prompts
+    "Llama-2-7b-hf (question prompt)": "-"
+    "Llama-2-7b-hf (continuation prompt)": "-"
+    "Llama-3.1-8B (question prompt)": "-"
+    "Llama-3.1-8B (continuation prompt)": "-"
+    "Meta-Llama-3.1-70B (question prompt)": "-"
+    "Meta-Llama-3.1-70B (continuation prompt)": "-"
+  
+  default_color: "gray"
+  default_style: "-"
+

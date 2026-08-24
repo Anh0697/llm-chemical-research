@@ -59,20 +59,31 @@ def load_model(model_name, hf_token, quantization_config):
         "bfloat16": torch.bfloat16
     }
     compute_dtype = dtype_map.get(quantization_config.get("bnb_4bit_compute_dtype", "float16"), torch.float16)
-    
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=quantization_config.get("load_in_4bit", True),
-        bnb_4bit_use_double_quant=quantization_config.get("bnb_4bit_use_double_quant", False),
-        bnb_4bit_quant_type=quantization_config.get("bnb_4bit_quant_type", "nf4"),
-        bnb_4bit_compute_dtype=compute_dtype
-    )
     torch.cuda.empty_cache()
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        device_map="auto",
-        quantization_config=bnb_config,
-        use_auth_token=hf_token,
-    )
+
+    if quantization_config.get("load_in_4bit", True):
+        # Quantized path (used for 70B) — build BitsAndBytesConfig as before.
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_use_double_quant=quantization_config.get("bnb_4bit_use_double_quant", False),
+            bnb_4bit_quant_type=quantization_config.get("bnb_4bit_quant_type", "nf4"),
+            bnb_4bit_compute_dtype=compute_dtype
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            device_map="auto",
+            quantization_config=bnb_config,
+            use_auth_token=hf_token,
+        )
+    else:
+        # Full-precision path (used for 8B) — no BitsAndBytesConfig at all,
+        # matches how 8B was run in the periodic-table project (fp16, no quantization).
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            device_map="auto",
+            torch_dtype=compute_dtype,
+            use_auth_token=hf_token,
+        )
     return model
 
 # Prepare input data

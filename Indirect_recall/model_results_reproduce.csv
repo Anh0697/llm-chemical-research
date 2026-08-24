@@ -1,0 +1,633 @@
+pair,layer,r2
+atomic number - period,1,0.9480072189753432
+atomic number - period,2,0.9307544581754982
+atomic number - period,3,0.8450446914924811
+atomic number - period,4,0.11905487164882762
+atomic number - period,5,0.5605527930207224
+atomic number - period,6,-0.09251619137144465
+atomic number - period,7,0.10733467426969234
+atomic number - period,8,0.26082634597210075
+atomic number - period,9,-0.19621999111733643
+atomic number - period,10,-0.75678805009921
+atomic number - period,11,-1.203938850129359
+atomic number - period,12,-0.5131424249625429
+atomic number - period,13,-0.987198005962321
+atomic number - period,14,-0.6834559295628105
+atomic number - period,15,-0.5238826720993176
+atomic number - period,16,-0.616082049267812
+atomic number - period,17,-0.9933902471901392
+atomic number - period,18,-1.1866616636672327
+atomic number - period,19,-2.1721934811864485
+atomic number - period,20,-2.587863570642734
+atomic number - period,21,-1.945011545550781
+atomic number - period,22,-1.2001776852121178
+atomic number - period,23,-1.3510604180147396
+atomic number - period,24,-1.3866820762314258
+atomic number - period,25,-1.8177004490704782
+atomic number - period,26,-1.7758777110557322
+atomic number - period,27,-1.6074149810463485
+atomic number - period,28,-2.0273530979882146
+atomic number - period,29,-2.3387322751418207
+atomic number - period,30,-1.516728205121657
+atomic number - period,31,-1.7083433662570056
+atomic number - period,32,-1.3467506458902474
+atomic number - period,33,-1.4778763297369668
+atomic number - period,34,-1.5038815182499556
+atomic number - period,35,-2.2227354696164383
+atomic number - period,36,-0.6092052277729808
+atomic number - period,37,0.31588709013652705
+atomic number - period,38,0.24554229959702142
+atomic number - period,39,0.6608388785705134
+atomic number - period,40,0.4498346072084264
+atomic number - period,41,0.447835519864532
+atomic number - period,42,0.4815745797227535
+atomic number - period,43,0.5760944265148776
+atomic number - period,44,0.20740440581565003
+atomic number - period,45,0.4578764989690206
+atomic number - period,46,0.5168807934841501
+atomic number - period,47,0.4360894819489266
+atomic number - period,48,0.49383034784322727
+atomic number - period,49,0.4825427261094963
+atomic number - period,50,0.5186744241745894
+atomic number - period,51,0.5373452763699966
+atomic number - period,52,0.5103691117676677
+atomic number - period,53,0.49803033876183334
+atomic number - period,54,0.479792181976439
+atomic number - period,55,0.3387840437786826
+atomic number - period,56,0.5528002224770402
+atomic number - period,57,0.5534206021320716
+atomic number - period,58,0.5532163444381427
+atomic number - period,59,0.544508271296595
+atomic number - period,60,0.5827846216161326
+atomic number - period,61,0.4417445416194689
+atomic number - period,62,0.5687915557565623
+atomic number - period,63,0.47043668746053946
+atomic number - period,64,0.3533757757766914
+atomic number - period,65,0.40186918528950366
+atomic number - period,66,0.4822877392408592
+atomic number - period,67,0.45809430988065725
+atomic number - period,68,0.42411127231582074
+atomic number - period,69,0.2526510451984734
+atomic number - period,70,0.3125348593069173
+atomic number - period,71,0.08359828913540253
+atomic number - period,72,0.09286596838144998
+atomic number - period,73,-0.34363294889776513
+atomic number - period,74,-0.24457439336252423
+atomic number - period,75,-0.3593293011889702
+atomic number - period,76,-0.1921571001749533
+atomic number - period,77,-0.35984196451191275
+atomic number - period,78,-0.27733023445308247
+atomic number - period,79,-0.37517483622763503
+atomic number - group,1,0.9532455572840053
+atomic number - group,2,0.9276209494962921
+atomic number - group,3,0.9150037994304983
+atomic number - group,4,0.6781027924250986
+atomic number - group,5,0.23564261400629963
+atomic number - group,6,-0.5131302993297482
+atomic number - group,7,-2.7067958697971175
+atomic number - group,8,-0.5315987607357936
+atomic number - group,9,-1.8094456259993437
+atomic number - group,10,-2.4454065910266682
+atomic number - group,11,-2.099365474692972
+atomic number - group,12,-1.4649461235241197
+atomic number - group,13,-1.304629135227439
+atomic number - group,14,-1.5348223233740137
+atomic number - group,15,-0.9438188904436272
+atomic number - group,16,-1.6788714350782115
+atomic number - group,17,-1.2815941916688856
+atomic number - group,18,-1.1140350701029882
+atomic number - group,19,-1.3799481417143038
+atomic number - group,20,-1.3601339463374549
+atomic number - group,21,-1.4651289994520007
+atomic number - group,22,-1.6292626454501111
+atomic number - group,23,-1.6859226307275688
+atomic number - group,24,-1.53846687259046
+atomic number - group,25,-2.4317621482101663
+atomic number - group,26,-2.190624986236802
+atomic number - group,27,-2.3192198848150576
+atomic number - group,28,-2.088599549248691
+atomic number - group,29,-2.0525352955346907
+atomic number - group,30,-1.3795982416055779
+atomic number - group,31,-1.095573307691805
+atomic number - group,32,-1.1765027962703933
+atomic number - group,33,-1.490585421266619
+atomic number - group,34,-1.4507909660988163
+atomic number - group,35,-2.707168302546427
+atomic number - group,36,-0.9740301876417501
+atomic number - group,37,-0.04095826642961502
+atomic number - group,38,-0.0129845120245061
+atomic number - group,39,0.5272366065309824
+atomic number - group,40,0.2591087807468253
+atomic number - group,41,0.27724796109963556
+atomic number - group,42,0.20649430610499722
+atomic number - group,43,0.2253808023546587
+atomic number - group,44,0.03673360515175527
+atomic number - group,45,0.05859654308023091
+atomic number - group,46,0.19431329870115416
+atomic number - group,47,0.23529678192683354
+atomic number - group,48,0.28981824875992174
+atomic number - group,49,0.23287403975579402
+atomic number - group,50,0.3022943380509758
+atomic number - group,51,0.2712409377239747
+atomic number - group,52,0.28177499959088353
+atomic number - group,53,0.2708079458646171
+atomic number - group,54,0.20920606488979204
+atomic number - group,55,0.2593792135833711
+atomic number - group,56,0.27706638471697226
+atomic number - group,57,0.24335761427545535
+atomic number - group,58,0.22807883726898015
+atomic number - group,59,0.2334186736023954
+atomic number - group,60,0.17572127496479734
+atomic number - group,61,0.14189397553308045
+atomic number - group,62,0.23151752386244526
+atomic number - group,63,0.21585029615980278
+atomic number - group,64,0.10936787368378935
+atomic number - group,65,0.15820002297376065
+atomic number - group,66,0.05052251970653081
+atomic number - group,67,0.0885741234621128
+atomic number - group,68,0.03671586492824304
+atomic number - group,69,0.0497713760014622
+atomic number - group,70,0.11139900965563547
+atomic number - group,71,-0.14607440205135871
+atomic number - group,72,-0.2928895657632029
+atomic number - group,73,-0.5934196738936555
+atomic number - group,74,-0.657044811178452
+atomic number - group,75,-0.7637030729101502
+atomic number - group,76,-0.7274955091959237
+atomic number - group,77,-0.7998194642670633
+atomic number - group,78,-0.604986202270575
+atomic number - group,79,-0.7377588474014962
+period - group,1,0.9745920376599464
+period - group,2,0.9425539789825297
+period - group,3,0.9194868661996118
+period - group,4,0.24191796581969296
+period - group,5,-0.050841622573047696
+period - group,6,0.29476331072311385
+period - group,7,-2.4233665465207177
+period - group,8,-0.5150980126366038
+period - group,9,-1.3360177431799596
+period - group,10,-0.17525651799563616
+period - group,11,-0.5802310082377645
+period - group,12,-1.0140013403013384
+period - group,13,-0.6915864237284478
+period - group,14,-0.8287759293621837
+period - group,15,-0.5152510914655044
+period - group,16,-1.5926489653689466
+period - group,17,-1.7323087108708932
+period - group,18,-1.9074389148740216
+period - group,19,-1.5190304616573194
+period - group,20,-2.5045886952455705
+period - group,21,-1.6611097222381215
+period - group,22,-1.366452065500313
+period - group,23,-3.19547069982369
+period - group,24,-2.1148732584888217
+period - group,25,-2.602567442726602
+period - group,26,-2.620546924149116
+period - group,27,-2.199300975025922
+period - group,28,-1.983775110903093
+period - group,29,-1.0822666798723586
+period - group,30,-1.4191598984724407
+period - group,31,-1.547785099348722
+period - group,32,-1.8022218266683663
+period - group,33,-2.2055882341627475
+period - group,34,-2.0466393852880573
+period - group,35,-2.346080998719879
+period - group,36,-1.5731002624829522
+period - group,37,-0.0014255395790256364
+period - group,38,0.06929664604056762
+period - group,39,0.571593971812516
+period - group,40,0.5533228267644404
+period - group,41,0.417659264256591
+period - group,42,0.4367226200679376
+period - group,43,0.46506861366634544
+period - group,44,0.4573245530172606
+period - group,45,0.4761732286026728
+period - group,46,0.4595091756505136
+period - group,47,0.49140009197467505
+period - group,48,0.4924786983304027
+period - group,49,0.47269319823437533
+period - group,50,0.47904629276857624
+period - group,51,0.5049025387402166
+period - group,52,0.5212804277513842
+period - group,53,0.47925236657004283
+period - group,54,0.473269006653876
+period - group,55,0.4788031907515983
+period - group,56,0.37248405903223303
+period - group,57,0.3438724054956296
+period - group,58,0.2975206880895581
+period - group,59,0.3224031943685255
+period - group,60,0.3514490337409225
+period - group,61,0.25116393812594856
+period - group,62,0.2717395385274315
+period - group,63,0.2157733861285065
+period - group,64,0.27667666344497654
+period - group,65,0.21342914535049543
+period - group,66,0.20116673662442947
+period - group,67,0.15099810988456785
+period - group,68,0.03810497064013872
+period - group,69,-0.038297991496415475
+period - group,70,-0.0022533593210790404
+period - group,71,-0.07042869036556909
+period - group,72,-0.15093561478552717
+period - group,73,-0.28015483908431615
+period - group,74,-0.2653510954165329
+period - group,75,-0.33962814595313595
+period - group,76,-0.33933577554252625
+period - group,77,-0.43398462389945236
+period - group,78,-0.24282166258616283
+period - group,79,-0.6316640930539863
+atomic mass - group,1,0.9281347728929342
+atomic mass - group,2,0.9290371545644149
+atomic mass - group,3,0.8517637861137576
+atomic mass - group,4,0.4346841728352501
+atomic mass - group,5,0.40721387987892843
+atomic mass - group,6,-0.6126240253687232
+atomic mass - group,7,-1.6798494639777495
+atomic mass - group,8,-0.2691041094820358
+atomic mass - group,9,-1.4858764911790496
+atomic mass - group,10,-0.9563644965658208
+atomic mass - group,11,-1.897443709477551
+atomic mass - group,12,-1.6978565891686106
+atomic mass - group,13,-1.7081631320329844
+atomic mass - group,14,-1.7162025147322577
+atomic mass - group,15,-1.3489198711614367
+atomic mass - group,16,-1.6794716643491974
+atomic mass - group,17,-1.616457029165878
+atomic mass - group,18,-2.0223339912040874
+atomic mass - group,19,-1.98300567035144
+atomic mass - group,20,-3.63357078340123
+atomic mass - group,21,-2.2562707952678904
+atomic mass - group,22,-2.4731364954790314
+atomic mass - group,23,-2.9247951299639867
+atomic mass - group,24,-2.648178004122566
+atomic mass - group,25,-2.8802236091711917
+atomic mass - group,26,-3.082594876654762
+atomic mass - group,27,-3.440141421931775
+atomic mass - group,28,-3.1848286162530512
+atomic mass - group,29,-3.2744410875823795
+atomic mass - group,30,-1.3305894823996502
+atomic mass - group,31,-1.40255510735151
+atomic mass - group,32,-1.5124518640381466
+atomic mass - group,33,-1.7164535714998685
+atomic mass - group,34,-1.784443654271189
+atomic mass - group,35,-3.284629443605799
+atomic mass - group,36,-1.6994124831292254
+atomic mass - group,37,-0.29124675813074397
+atomic mass - group,38,-0.22111699920167943
+atomic mass - group,39,0.5046180713392541
+atomic mass - group,40,0.46735540418642174
+atomic mass - group,41,0.3482771163555534
+atomic mass - group,42,0.28663774318820623
+atomic mass - group,43,0.1871588523195937
+atomic mass - group,44,0.07791677254462945
+atomic mass - group,45,0.1283168858167954
+atomic mass - group,46,0.11612268313632197
+atomic mass - group,47,0.2678565261251742
+atomic mass - group,48,0.2296980994323825
+atomic mass - group,49,0.21781337598301978
+atomic mass - group,50,0.22501953125223886
+atomic mass - group,51,0.22203539224833366
+atomic mass - group,52,0.20071258829653416
+atomic mass - group,53,0.23342800738921463
+atomic mass - group,54,0.2016847555355506
+atomic mass - group,55,0.17755315965137639
+atomic mass - group,56,0.13223477049378024
+atomic mass - group,57,0.1275570280292796
+atomic mass - group,58,0.09341620474825518
+atomic mass - group,59,0.09682503122482153
+atomic mass - group,60,0.04398369103754196
+atomic mass - group,61,0.012757795560454532
+atomic mass - group,62,0.057996534625631216
+atomic mass - group,63,0.050389501363455415
+atomic mass - group,64,0.08160859105770712
+atomic mass - group,65,-0.00231478242433871
+atomic mass - group,66,0.13685221655404195
+atomic mass - group,67,-0.010790072701239627
+atomic mass - group,68,-0.10902882858046936
+atomic mass - group,69,-0.14813260253437105
+atomic mass - group,70,-0.09349962940816359
+atomic mass - group,71,-0.1954045379926432
+atomic mass - group,72,-0.6782645492554221
+atomic mass - group,73,-0.48243366344559624
+atomic mass - group,74,-0.457613220480395
+atomic mass - group,75,-0.36766080397477807
+atomic mass - group,76,-0.5425948425583262
+atomic mass - group,77,-0.6438687693154961
+atomic mass - group,78,-0.47243720165723496
+atomic mass - group,79,-0.7808060475853327
+atomic mass - period,1,0.9577325854675165
+atomic mass - period,2,0.9417883411923678
+atomic mass - period,3,0.8968401200175442
+atomic mass - period,4,0.7105600868379299
+atomic mass - period,5,0.3280672376038999
+atomic mass - period,6,-0.1412711065797287
+atomic mass - period,7,0.1447181302032201
+atomic mass - period,8,-0.40578008084706846
+atomic mass - period,9,-0.47631129550591256
+atomic mass - period,10,-0.6296560668718414
+atomic mass - period,11,-0.4966315087894063
+atomic mass - period,12,-0.401296153106251
+atomic mass - period,13,-0.5864409347759054
+atomic mass - period,14,-0.4371227761105593
+atomic mass - period,15,-0.5826762136241312
+atomic mass - period,16,-0.9356500699566082
+atomic mass - period,17,-1.1427592832167615
+atomic mass - period,18,-1.4599748551212544
+atomic mass - period,19,-1.4008981765382138
+atomic mass - period,20,-3.793087734311147
+atomic mass - period,21,-2.2363907390653797
+atomic mass - period,22,-2.1187602743416756
+atomic mass - period,23,-1.9403615029517263
+atomic mass - period,24,-2.1197544492439224
+atomic mass - period,25,-2.4013717271516777
+atomic mass - period,26,-2.912507615330601
+atomic mass - period,27,-2.272411722712993
+atomic mass - period,28,-2.3887218153459466
+atomic mass - period,29,-2.0315288612119797
+atomic mass - period,30,-1.3513236757851788
+atomic mass - period,31,-1.5279468274242887
+atomic mass - period,32,-1.502005553268055
+atomic mass - period,33,-1.5124066625490298
+atomic mass - period,34,-1.524951759298679
+atomic mass - period,35,-2.6534775550884526
+atomic mass - period,36,-1.0870151997288444
+atomic mass - period,37,0.037378863284971954
+atomic mass - period,38,-0.06271884873640299
+atomic mass - period,39,0.5327328626453658
+atomic mass - period,40,0.4979411248604122
+atomic mass - period,41,0.4424237594433841
+atomic mass - period,42,0.4870050154018431
+atomic mass - period,43,0.5419808274003695
+atomic mass - period,44,0.0436054472784904
+atomic mass - period,45,0.4052926640582647
+atomic mass - period,46,0.495347229707083
+atomic mass - period,47,0.4964522085512046
+atomic mass - period,48,0.447177792206564
+atomic mass - period,49,0.47705202256580675
+atomic mass - period,50,0.41789396867814127
+atomic mass - period,51,0.49480383333333533
+atomic mass - period,52,0.5105735704072101
+atomic mass - period,53,0.4258581192673564
+atomic mass - period,54,0.3911216235351385
+atomic mass - period,55,0.3907752594863507
+atomic mass - period,56,0.36211286537852205
+atomic mass - period,57,0.3902273509965914
+atomic mass - period,58,0.3927012771857341
+atomic mass - period,59,0.4323940969660591
+atomic mass - period,60,0.4318047221480459
+atomic mass - period,61,0.4002729629064337
+atomic mass - period,62,0.4121755479865792
+atomic mass - period,63,0.3050833183282813
+atomic mass - period,64,0.37823855616378255
+atomic mass - period,65,0.3765415429930321
+atomic mass - period,66,0.30267633418295564
+atomic mass - period,67,0.3048355345467796
+atomic mass - period,68,0.23337532980151426
+atomic mass - period,69,0.09352031780528651
+atomic mass - period,70,0.11747098902968836
+atomic mass - period,71,-0.06365765316856609
+atomic mass - period,72,-0.3054019548069209
+atomic mass - period,73,-0.1138036751463716
+atomic mass - period,74,-0.018097596693627437
+atomic mass - period,75,-0.14067855064973828
+atomic mass - period,76,-0.28096592034349593
+atomic mass - period,77,-0.3795243850243482
+atomic mass - period,78,-0.4529443933966307
+atomic mass - period,79,-0.520064377678473
+atomic number - electronegativity,1,-2.7423048574035285
+atomic number - electronegativity,2,-3.0306510514329696
+atomic number - electronegativity,3,-2.55707306881239
+atomic number - electronegativity,4,-2.7003797789337263
+atomic number - electronegativity,5,-3.1351883165176186
+atomic number - electronegativity,6,-3.718497811018376
+atomic number - electronegativity,7,-3.327967858922495
+atomic number - electronegativity,8,-2.8496767279980544
+atomic number - electronegativity,9,-2.658536903223306
+atomic number - electronegativity,10,-2.7116540644322007
+atomic number - electronegativity,11,-3.453546334103477
+atomic number - electronegativity,12,-2.5972721704090285
+atomic number - electronegativity,13,-1.7935067954317088
+atomic number - electronegativity,14,-1.8692686326979857
+atomic number - electronegativity,15,-1.5707510283749258
+atomic number - electronegativity,16,-2.9828637669963487
+atomic number - electronegativity,17,-2.407770778589657
+atomic number - electronegativity,18,-3.0744324864461277
+atomic number - electronegativity,19,-2.926711157648264
+atomic number - electronegativity,20,-2.501019484804588
+atomic number - electronegativity,21,-2.598860015321237
+atomic number - electronegativity,22,-1.9098545087645882
+atomic number - electronegativity,23,-2.4020949246256817
+atomic number - electronegativity,24,-2.132394168810822
+atomic number - electronegativity,25,-1.832483848248728
+atomic number - electronegativity,26,-1.7634773286344116
+atomic number - electronegativity,27,-2.14416352194462
+atomic number - electronegativity,28,-2.3235408828801205
+atomic number - electronegativity,29,-1.9915867158920424
+atomic number - electronegativity,30,-0.5548598519212256
+atomic number - electronegativity,31,-0.634868213092612
+atomic number - electronegativity,32,-0.7952269640608168
+atomic number - electronegativity,33,-1.546784806020507
+atomic number - electronegativity,34,-0.5790967138957597
+atomic number - electronegativity,35,-0.9346105488444231
+atomic number - electronegativity,36,-0.8243786287748648
+atomic number - electronegativity,37,-0.6440814923215272
+atomic number - electronegativity,38,-0.30000186328133555
+atomic number - electronegativity,39,0.14677406204820143
+atomic number - electronegativity,40,-0.1839939014709185
+atomic number - electronegativity,41,-0.06798844033419359
+atomic number - electronegativity,42,0.07281238577066927
+atomic number - electronegativity,43,0.06457676352711206
+atomic number - electronegativity,44,-0.24785274696055676
+atomic number - electronegativity,45,-0.18309169375286616
+atomic number - electronegativity,46,-0.15051978756491832
+atomic number - electronegativity,47,-0.17778052592860713
+atomic number - electronegativity,48,-0.20355349374124296
+atomic number - electronegativity,49,-0.07407828841576494
+atomic number - electronegativity,50,-0.08972508047182577
+atomic number - electronegativity,51,-0.08801222873276533
+atomic number - electronegativity,52,-0.03513519889871588
+atomic number - electronegativity,53,-0.1180294180768264
+atomic number - electronegativity,54,-0.07058250658877904
+atomic number - electronegativity,55,-0.04761842335604175
+atomic number - electronegativity,56,-0.038758246528283316
+atomic number - electronegativity,57,0.012718325430698396
+atomic number - electronegativity,58,0.011489434128614463
+atomic number - electronegativity,59,-0.04662326904620603
+atomic number - electronegativity,60,-0.14317192368630244
+atomic number - electronegativity,61,-0.0618286915593985
+atomic number - electronegativity,62,-0.11805887257907943
+atomic number - electronegativity,63,-0.2088678145861988
+atomic number - electronegativity,64,-0.18049654136427642
+atomic number - electronegativity,65,-0.34213350442751767
+atomic number - electronegativity,66,-0.3067780702639948
+atomic number - electronegativity,67,-0.2898591537972015
+atomic number - electronegativity,68,-0.3619436850187875
+atomic number - electronegativity,69,-0.3910722317357256
+atomic number - electronegativity,70,-0.4442340747743983
+atomic number - electronegativity,71,-0.604157884143705
+atomic number - electronegativity,72,-0.7352321095088761
+atomic number - electronegativity,73,-1.2658345958906196
+atomic number - electronegativity,74,-1.2343994884280842
+atomic number - electronegativity,75,-0.9710660728809213
+atomic number - electronegativity,76,-0.895470540068102
+atomic number - electronegativity,77,-1.1182939698110714
+atomic number - electronegativity,78,-1.309331791594575
+atomic number - electronegativity,79,-1.2860825892812446
+atomic mass - electronegativity,1,-2.3040265792915813
+atomic mass - electronegativity,2,-3.2607737085086845
+atomic mass - electronegativity,3,-3.115427093509881
+atomic mass - electronegativity,4,-3.638971940206184
+atomic mass - electronegativity,5,-3.6678940830330875
+atomic mass - electronegativity,6,-3.665007892326546
+atomic mass - electronegativity,7,-3.9499784791592334
+atomic mass - electronegativity,8,-2.8739768756959285
+atomic mass - electronegativity,9,-2.6111466461460386
+atomic mass - electronegativity,10,-2.7080148618521322
+atomic mass - electronegativity,11,-2.718942557942609
+atomic mass - electronegativity,12,-2.2792596864290173
+atomic mass - electronegativity,13,-1.6962334154769638
+atomic mass - electronegativity,14,-2.5214673388149658
+atomic mass - electronegativity,15,-2.110770838965177
+atomic mass - electronegativity,16,-2.596801129856416
+atomic mass - electronegativity,17,-1.6662250508968939
+atomic mass - electronegativity,18,-1.5752222713688777
+atomic mass - electronegativity,19,-2.5541876742543095
+atomic mass - electronegativity,20,-2.198724755570132
+atomic mass - electronegativity,21,-1.6851414441748684
+atomic mass - electronegativity,22,-1.9430447369370172
+atomic mass - electronegativity,23,-1.712982829076329
+atomic mass - electronegativity,24,-1.621275695793127
+atomic mass - electronegativity,25,-1.732731362031616
+atomic mass - electronegativity,26,-2.0715588031153005
+atomic mass - electronegativity,27,-2.206528050066315
+atomic mass - electronegativity,28,-2.870024297163437
+atomic mass - electronegativity,29,-3.4601073873653165
+atomic mass - electronegativity,30,-0.8145589202308618
+atomic mass - electronegativity,31,-1.1047757512916205
+atomic mass - electronegativity,32,-1.0812518778908404
+atomic mass - electronegativity,33,-1.2488171836299835
+atomic mass - electronegativity,34,-0.917736940648014
+atomic mass - electronegativity,35,-2.7065814543789313
+atomic mass - electronegativity,36,-1.4539935732724476
+atomic mass - electronegativity,37,-0.6295169873223193
+atomic mass - electronegativity,38,-0.4151255320018389
+atomic mass - electronegativity,39,0.08500245170256551
+atomic mass - electronegativity,40,-0.1263973152875188
+atomic mass - electronegativity,41,-0.04247775304285843
+atomic mass - electronegativity,42,-0.08482169128948533
+atomic mass - electronegativity,43,-0.03795895820200845
+atomic mass - electronegativity,44,-0.39314730078043536
+atomic mass - electronegativity,45,-0.13181802211467658
+atomic mass - electronegativity,46,-0.278426106428684
+atomic mass - electronegativity,47,-0.7522547451887635
+atomic mass - electronegativity,48,-0.28969138980840914
+atomic mass - electronegativity,49,-0.2263840953299142
+atomic mass - electronegativity,50,-0.1615634493950526
+atomic mass - electronegativity,51,-0.1561958602019214
+atomic mass - electronegativity,52,-0.055387800650399575
+atomic mass - electronegativity,53,-0.03094717447979813
+atomic mass - electronegativity,54,-0.1109288633631738
+atomic mass - electronegativity,55,-0.0027822770351147996
+atomic mass - electronegativity,56,-0.11282908840487067
+atomic mass - electronegativity,57,-0.06810619614228576
+atomic mass - electronegativity,58,-0.15227997163685264
+atomic mass - electronegativity,59,-0.07332735071622024
+atomic mass - electronegativity,60,-0.19428067539810887
+atomic mass - electronegativity,61,-0.21393061425460477
+atomic mass - electronegativity,62,-0.22671901198620353
+atomic mass - electronegativity,63,-0.2917978696059696
+atomic mass - electronegativity,64,-0.29972676115803704
+atomic mass - electronegativity,65,-0.20661166981760415
+atomic mass - electronegativity,66,-0.31463164375161273
+atomic mass - electronegativity,67,-0.2939253629410973
+atomic mass - electronegativity,68,-0.4652661306690806
+atomic mass - electronegativity,69,-0.568997971521963
+atomic mass - electronegativity,70,-0.5182746761115586
+atomic mass - electronegativity,71,-0.7622833162469764
+atomic mass - electronegativity,72,-1.253059757319694
+atomic mass - electronegativity,73,-1.0835415676226041
+atomic mass - electronegativity,74,-0.9872902455860343
+atomic mass - electronegativity,75,-1.1155511483620812
+atomic mass - electronegativity,76,-0.8779533843031011
+atomic mass - electronegativity,77,-1.0440734480237626
+atomic mass - electronegativity,78,-1.548894749107062
+atomic mass - electronegativity,79,-1.2690691035082367
+atomic mass - atomic number,1,0.7955612316285994
+atomic mass - atomic number,2,0.905710434068245
+atomic mass - atomic number,3,0.8734516957423045
+atomic mass - atomic number,4,0.6047466716693874
+atomic mass - atomic number,5,0.7365723357927727
+atomic mass - atomic number,6,0.4232202658918361
+atomic mass - atomic number,7,0.4076917433034673
+atomic mass - atomic number,8,0.5720820190213163
+atomic mass - atomic number,9,0.3862500397616498
+atomic mass - atomic number,10,0.42632008215042794
+atomic mass - atomic number,11,0.28233391802362773
+atomic mass - atomic number,12,0.1542951071073866
+atomic mass - atomic number,13,0.09095910390396358
+atomic mass - atomic number,14,0.13792240103191283
+atomic mass - atomic number,15,0.28131069157183913
+atomic mass - atomic number,16,0.17000544894559735
+atomic mass - atomic number,17,-0.4535602512245406
+atomic mass - atomic number,18,-0.23600379301578597
+atomic mass - atomic number,19,-0.34752236807199643
+atomic mass - atomic number,20,-0.9239838501290505
+atomic mass - atomic number,21,-0.7022065339213306
+atomic mass - atomic number,22,-0.6559848720805144
+atomic mass - atomic number,23,-0.996065949339593
+atomic mass - atomic number,24,-1.9061124098410531
+atomic mass - atomic number,25,-2.6514165761356576
+atomic mass - atomic number,26,-2.748849326415727
+atomic mass - atomic number,27,-2.5101620699788763
+atomic mass - atomic number,28,-3.1234789457475594
+atomic mass - atomic number,29,-1.5060034957380042
+atomic mass - atomic number,30,0.022366022526998864
+atomic mass - atomic number,31,6.964581894535194e-05
+atomic mass - atomic number,32,0.16723719158463424
+atomic mass - atomic number,33,-0.011081214162839493
+atomic mass - atomic number,34,0.05734973643154846
+atomic mass - atomic number,35,-1.1642432186786036
+atomic mass - atomic number,36,0.3398484319636077
+atomic mass - atomic number,37,0.5758655118597843
+atomic mass - atomic number,38,0.5588374414763689
+atomic mass - atomic number,39,0.8262330013418875
+atomic mass - atomic number,40,0.8607546773849958
+atomic mass - atomic number,41,0.833776631262087
+atomic mass - atomic number,42,0.7918748820961135
+atomic mass - atomic number,43,0.7402055737117612
+atomic mass - atomic number,44,0.7707853489936678
+atomic mass - atomic number,45,0.8491114790045178
+atomic mass - atomic number,46,0.7968044565916227
+atomic mass - atomic number,47,0.6480014730231999
+atomic mass - atomic number,48,0.45916738812004826
+atomic mass - atomic number,49,0.5902759472186483
+atomic mass - atomic number,50,0.6277705632326148
+atomic mass - atomic number,51,0.7176628530380196
+atomic mass - atomic number,52,0.7349987636117732
+atomic mass - atomic number,53,0.7801117601795537
+atomic mass - atomic number,54,0.7458579375293258
+atomic mass - atomic number,55,0.7231128579495127
+atomic mass - atomic number,56,0.6882603355669566
+atomic mass - atomic number,57,0.8283237650892248
+atomic mass - atomic number,58,0.8537537823378436
+atomic mass - atomic number,59,0.7974345715350474
+atomic mass - atomic number,60,0.7804003121241292
+atomic mass - atomic number,61,0.782306255303759
+atomic mass - atomic number,62,0.7359503911727908
+atomic mass - atomic number,63,0.7924777899108246
+atomic mass - atomic number,64,0.7531924150938896
+atomic mass - atomic number,65,0.7333243687056946
+atomic mass - atomic number,66,0.6704531087101188
+atomic mass - atomic number,67,0.6612294439100789
+atomic mass - atomic number,68,0.5940916920035697
+atomic mass - atomic number,69,0.6225951898858555
+atomic mass - atomic number,70,0.6098217030457243
+atomic mass - atomic number,71,0.45534923331353383
+atomic mass - atomic number,72,0.27045264096308574
+atomic mass - atomic number,73,0.21508636103513057
+atomic mass - atomic number,74,0.11356489889278917
+atomic mass - atomic number,75,0.12937479002107016
+atomic mass - atomic number,76,0.12281735194952219
+atomic mass - atomic number,77,0.1234290102552645
+atomic mass - atomic number,78,0.0963859922993168
+atomic mass - atomic number,79,-0.01862897953754775

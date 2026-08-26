@@ -51,7 +51,6 @@ SUMMARY_CSV_PATH = os.path.join(OUTPUT_DIR, 'direct_recall_summary.csv')
 NUM_LAYERS = 32       # 8B has 32 layers (0-31)
 N_SPLITS = 5           # GroupKFold splits, matches categorical_probe.py / basic_linear_regression.py
 SVM_C = 2               # matches the C used in the periodic-table scripts
-MISSING_FILL_VALUE = -np.inf  # placeholder for missing/not-applicable numeric values (e.g. pKaH for alkanes)
 
 
 # ============================
@@ -103,7 +102,13 @@ def load_labels(csv_path, label_column, templates_per_molecule):
     is_numeric = pd.api.types.is_numeric_dtype(df[label_column]) or coerced.notna().any()
 
     if is_numeric:
-        labels = coerced.fillna(MISSING_FILL_VALUE).astype(float).values
+        # Keep genuinely missing / not-applicable values as NaN rather than
+        # filling with a sentinel like -inf: sklearn's SVR.fit() rejects
+        # infinite target values outright (ValueError), and treating "does
+        # not apply" (e.g. pKaH for alkanes, which have no basic site) as an
+        # extreme numeric placeholder isn't chemically meaningful anyway.
+        # Rows with NaN targets are dropped from this probe in main().
+        labels = coerced.astype(float).values
     else:
         labels = df[label_column].fillna('Unknown').astype(str).values
 
@@ -247,10 +252,19 @@ def main():
         groups = make_groups(n_molecules, templates_per_molecule)
 
         if is_numeric:
+            # Drop rows where the property doesn't apply (NaN target) --
+            # e.g. pKaH is undefined for alkanes/alkyl halides. This must
+            # happen per-entity since a molecule missing one property may
+            # still be valid for every other entity's probe.
+            valid_mask = ~np.isnan(labels_repeated)
+            n_dropped_molecules = (n_molecules * templates_per_molecule - valid_mask.sum()) // templates_per_molecule
+            if n_dropped_molecules > 0:
+                print(f"  Dropping {n_dropped_molecules} molecule(s) with no valid '{entity_type}' value.")
             y = labels_repeated
         else:
             le = LabelEncoder()
             y = le.fit_transform(labels_repeated)
+            valid_mask = np.ones(len(y), dtype=bool)
 
         if not os.path.isdir(activations_dir):
             print(f"  Activations dir not found: {activations_dir}, skipping.")
@@ -265,10 +279,14 @@ def main():
                 layer_scores.append(np.nan)
                 continue
 
+            X_valid = X[valid_mask]
+            y_valid = y[valid_mask]
+            groups_valid = groups[valid_mask]
+
             if is_numeric:
-                score = regression_probe_cv(X, y, groups)
+                score = regression_probe_cv(X_valid, y_valid, groups_valid)
             else:
-                score = classification_probe_cv(X, y, groups)
+                score = classification_probe_cv(X_valid, y_valid, groups_valid)
             layer_scores.append(score)
             metric_name = 'R2' if is_numeric else 'accuracy'
             print(f"  Layer {layer_ix}: {metric_name} = {score:.3f}")

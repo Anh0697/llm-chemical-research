@@ -1,0 +1,41 @@
+hmdb_matched_name,hmdb_accession,hmdb_boiling_point,hmdb_melting_point,hmdb_water_solubility,hmdb_pka_strongest_acidic,hmdb_pka_strongest_basic,hmdb_polar_surface_area,hmdb_donor_count,hmdb_acceptor_count,hmdb_average_mass
+Butyric acid,HMDB0000039,,-5.7 °C,60.0 mg/mL,4.91,,37.3,1,2,88.1051
+Propionic acid,HMDB0000237,,-20.7 °C,1000.0 mg/mL,4.75,,37.3,1,2,74.0785
+Butanone,HMDB0000474,78.60 to   80.00 °C. @  760.00 mm Hg,-86.6 °C,223.0 mg/mL,19.68,-7.3,17.07,0,1,72.1057
+Caproic acid,HMDB0000535,202.00 to  203.00 °C. @  760.00 mm Hg,-4.00 to   -3.00 °C. @  760.00 mm Hg,10.3 mg/mL,,,,,,116.1583
+Hexanoylcarnitine,HMDB0000756,,,,4.22,-7.1,66.43,0,3,260.3498
+Propyl alcohol,HMDB0000820,,-126.1 °C,1000.0 mg/mL,16.85,-2,20.23,1,1,60.095
+Valeric acid,HMDB0000892,,-34 °C,24.0 mg/mL,5.01,,37.3,1,2,102.1317
+Acetone,HMDB0001659,56.00 to   57.00 °C. @  760.00 mm Hg,-94.8 °C,1000 mg/mL at 25 °C,19.51,-7.2,17.07,0,1,58.0791
+Propanal,HMDB0003366,,-80 °C,306 mg/mL at 25 °C,17.32,-6.9,17.07,0,1,58.0791
+Butanal,HMDB0003543,74.00 to   75.00 °C. @  760.00 mm Hg,-99 °C,71 mg/mL at 25 °C,17.97,-6.9,17.07,0,1,72.1057
+1-Butanol,HMDB0004327,,-89.8 °C,63.2 mg/mL at 25 °C,16.95,-1.9,20.23,1,1,74.1216
+2-Oxohexane,HMDB0005842,127.60 °C. @  760.00 mm Hg,-55.5 °C,17.5 mg/mL at 20 °C,19.64,-7.3,17.07,0,1,100.1589
+Hexanal,HMDB0005994,130.00 to  131.00 °C. @  760.00 mm Hg,-56 °C,5.64 mg/mL at 30 °C,17.79,-6.9,17.07,0,1,100.1589
+1-Hexanol,HMDB0012971,156.00 to  157.00 °C. @  760.00 mm Hg,-44.6 °C,6885 mg/L @ 25 °C (est),16.84,-2,20.23,1,1,102.1748
+1-Pentanol,HMDB0013036,136.00 to  138.00 °C. @  760.00 mm Hg,-78.9 °C,22 mg/mL at 25 °C,16.84,-2,20.23,1,1,88.1482
+Hexane,HMDB0029600,68.70 °C. @  760.00 mm Hg,-93.5 °C,0.0095 mg/mL at 25 °C,,,0,0,0,86.1754
+Pentane,HMDB0029603,36.00 to   37.00 °C. @  760.00 mm Hg,-129 °C,0.038 mg/mL at 25 °C,,,0,0,0,72.1488
+Methyl propionate,HMDB0030062,79.00 to   80.00 °C. @  760.00 mm Hg,-87.5 °C,62.4 mg/mL at 25 °C,,-7,26.3,0,1,88.1051
+Pentanal,HMDB0031206,102.00 to  103.00 °C. @  760.00 mm Hg,-92 °C,11.7 mg/mL at 25 °C,17.82,-6.9,17.07,0,1,86.1323
+Methyl pentanoate,HMDB0031207,118.00 to  119.00 °C. @  760.00 mm Hg,,5.06 mg/mL at 25 °C,,-7,26.3,0,1,116.1583
+1-Butylamine,HMDB0031321,77.00 to   78.00 °C. @  760.00 mm Hg,-50 °C,1000 mg/mL at 20 °C,,10.21,26.02,1,1,73.1368
+1-Butanethiol,HMDB0031322,98.50 °C. @  760.00 mm Hg,-119 °C,0.597 mg/mL at 20 °C,10.2,,0,1,0,90.187
+(Z)-3-Hexenal,HMDB0031498,20.00 °C. @    0.20 mm Hg,,slightly,18.39,-7,17.07,0,1,98.143
+Methyl acetate,HMDB0031523,535.70 °C. @  760.00 mm Hg (est),-98.7 °C,243 mg/mL at 20 °C,,-7,26.3,0,1,74.0785
+Propane,HMDB0031630,-42.77 °C. @  760.00 mm Hg (est),-189.9 °C,0.0624 mg/mL at 25 °C,,,0,0,0,44.0956
+Hexylamine,HMDB0032323,,-22.9 °C,12 mg/mL at 25 °C,,10.21,26.02,1,1,101.19
+1-Pentanethiol,HMDB0032457,,-75.7 °C,0.156 mg/mL at 20 °C,10.2,-9.6,0,1,0,104.214
+Butyramide,HMDB0033870,216.00 to  217.00 °C. @  760.00 mm Hg,115 - 116 °C,163 mg/mL at 15 °C,16.96,-1.5,43.09,1,1,87.1204
+Methyl butyrate,HMDB0033890,102.00 to  103.00 °C. @  760.00 mm Hg,-95 °C,15 mg/mL at 25 °C,,-7,26.3,0,1,102.1317
+1-Propylamine,HMDB0034006,47.00 to   48.00 °C. @  760.00 mm Hg,-83 °C,1000 mg/mL at 20 °C,,10.21,26.02,1,1,59.1103
+2-Pentanone,HMDB0034235,100.00 to  110.00 °C. @  760.00 mm Hg,-76.9 °C,43 mg/mL at 25 °C,19.65,-7.3,17.07,0,1,86.1323
+1-Propanethiol,HMDB0034238,67.00 to   68.00 °C. @  760.00 mm Hg,-113.3 °C,1.9 mg/mL at 25 °C,10.2,,0,1,0,76.161
+1-Hexanethiol,HMDB0039806,150.00 to  154.00 °C. @  760.00 mm Hg,-81 °C,177.1 mg/L @ 25 °C (est),,,,,,118.24
+Pentanenitrile,HMDB0040173,141.00 to  142.00 °C. @  760.00 mm Hg,-96.2 °C,7746 mg/L @ 25 °C (est),,,23.79,0,1,83.1317
+1-Chlorobutane,HMDB0243848,,,,,,0,0,0,92.57
+Amylamine,HMDB0248371,,,,,10.21,26.02,1,1,87.1634
+Butyronitrile,HMDB0249482,,,,,,23.79,0,1,69.1051
+Pentanamide,HMDB0256275,,,,0.32,13.97,44.08,2,2,101.149
+Propionitrile,HMDB0256827,,,,,,23.79,0,1,55.0785
+Hexanenitrile,HMDB0303478,,,,,,23.79,0,1,97.1582

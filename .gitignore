@@ -217,3 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 config.json
+activation_datasets_2/
+activation_datasets_3/
+activation_datasets_functional_groups/
+Functional_groups/hmdb_metabolites.xml
+*.pt
+*.xml
